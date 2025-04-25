@@ -16,7 +16,7 @@ const Getstarted = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           {/* General Inquiry Form */}
           <form
-            action="http://localhost:3000/api/contact"
+            action="https://deploy-company-website-f3ak-b84end122.vercel.app/"
             method="POST"
             className="flex flex-col gap-6 bg-white rounded-3xl p-8 shadow-md"
           >
@@ -73,7 +73,7 @@ const Getstarted = () => {
 
           {/* Hire Us Form */}
           <form
-            action="http://localhost:3000/api/contact"
+            action="https://deploy-company-website-f3ak-b84end122.vercel.app/"
             method="POST"
             className="flex flex-col gap-6 bg-white rounded-3xl p-8 shadow-md"
           >

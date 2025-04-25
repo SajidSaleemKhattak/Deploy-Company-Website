@@ -18,7 +18,7 @@ const Contact = () => {
       {/* Form Contact */}
       <div className="flex pb-10 flex-col bg-stone-50 m-6 p-6 border-0 rounded-3xl py-14 gap-12 sm:px-14">
         <form
-          action="http://localhost:3000/api/contact"
+          action="https://deploy-company-website-f3ak-b84end122.vercel.app/"
           method="POST"
           className="flex flex-col gap-6 w-full max-w-xl mx-auto"
         >

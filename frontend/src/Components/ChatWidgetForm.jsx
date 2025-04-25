@@ -19,18 +19,21 @@ export default function ChatWidgetForm() {
   };
   const handleSubmit = async (e) => {
     e.preventDefault();
-  
+
     try {
-      const response = await fetch("http://localhost:3000/api/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(form),
-      });
-  
+      const response = await fetch(
+        "https://deploy-company-website-f3ak-b84end122.vercel.app/",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(form),
+        }
+      );
+
       const data = await response.json();
-  
+
       if (response.ok) {
         alert("Message sent successfully!");
         setForm({
@@ -49,7 +52,6 @@ export default function ChatWidgetForm() {
       alert("An error occurred. Please try again later.");
     }
   };
-  
 
   return (
     <div className="fixed bottom-4 right-4 z-50 flex flex-col items-end">
