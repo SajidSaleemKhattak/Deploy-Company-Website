@@ -22,7 +22,7 @@ export default function ChatWidgetForm() {
 
     try {
       const response = await fetch(
-        "https://deploy-company-website-f3ak-b84end122.vercel.app/",
+        "https://deploy-company-website-jhgf.vercel.app/",
         {
           method: "POST",
           headers: {
